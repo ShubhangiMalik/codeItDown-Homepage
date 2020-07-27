@@ -1,0 +1,264 @@
+body{
+	font-family: 'Vollkorn', serif;
+	position: relative;
+}
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+   color: white;
+   padding:7px 8px;
+   
+}
+
+#mainNavbar .nav-item{
+    margin-right:4px;
+}
+
+ #mainNavbar .active{
+	font-weight: 600;
+    background-color:#0000EE;
+    
+} 
+#mainNavbar .nav-item:hover{
+	background-color:#0000EE;
+	font-weight: 600;
+    
+} 
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: #000033;
+	transition: background 800ms;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+
+.parallax {
+	background-attachment: fixed;
+    text-align: center;
+    background-image: url("images/bg_image.jpg");
+    height: 680px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .parallax p{
+      font-size: 80px;
+      color: black;
+  }
+
+
+#contacts {
+	background-color: #F8F8F8;
+	padding-bottom: 150px;
+	float: left;
+	width: 100%;
+	
+}
+#contacts h3 , #review h3 , #tp h3 , #about h3{
+	margin-bottom: 50px;
+	border-bottom: 2px solid #0000EE;
+	display: inline-block;
+	margin-top: 130px;
+	line-height: 35px;
+}
+.contact-form {
+	margin-top: 45px;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 17px;
+	line-height: 1.42857;
+	color: #242424;
+	background-color: transparent;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	border-bottom: 2px solid #EB233C;
+	resize: none;
+	margin-top: 25px;
+}
+.form-control:hover, .form-control:focus {
+	box-shadow: none;
+	border-bottom: 2px solid #242424;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #242424 !important;
+}
+ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+color: #242424 !important;
+}
+ input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #242424 !important;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #242424 !important;
+}
+.contact-button {
+	border: none;
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 15px;
+	background-color: #EB233C;
+	margin-top: 30px;
+}
+
+.contact-button:hover{
+	background-color:#ff0220;
+     transform: scale(1.1);
+}
+
+.address {
+	color: #242424;
+	margin-top: 70px;
+}
+.address h4 {
+	color: #EB233C;
+	font-size: 22px;
+}
+.address p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.email i {
+	color: #EB233C;
+	padding-right: 10px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.email {
+	padding-top: 15px;
+}
+
+#reviewContainer img{
+   
+    height:350px;
+	margin:30px 30px 0 30px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+#reviewContainer{
+	width:100%;
+	height: 450px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	background-color: #F0F8FF;
+  }
+
+
+::-webkit-scrollbar {
+	height: 20px;
+  }
+  
+
+ ::-webkit-scrollbar-thumb {
+	background-color: #F0F8FF;
+	
+  }
+  
+.review{
+	background-color: #F0F8FF;
+	padding:0 0 60px 30px ;
+}
+
+#tp img{
+	width: 115%;
+	height: 310px;
+	margin: 40px 0;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+#tp{
+	margin-bottom: 50px;
+}
+
+
+#details {
+	font-size: calc(15px + (18 - 15) * ((100vw - 300px) / (1600 - 300)));
+	color: black;
+}
+
+#updates{
+	font-weight: bold;
+	color:black;
+	margin: 50px 0 10px 0;
+	font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+
+#details i:hover{
+	transform: scale(1.2);
+	
+}
+
+#details i{
+	margin-right: 15px;
+}
+
+#about{
+	margin-bottom:50px;
+	font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#first{
+	letter-spacing: 1px;
+	border-left: 10px solid #0000EE;
+	font-size: calc(17px + (20 - 17) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.fa-instagram{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.fa-phone-alt{
+	color: green;
+}
+
+
+a{
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+.fa-linkedin{
+	color: #2867B2;
+}
+
+.out{
+   height: 35px;
+   width: 35px;
+   border-radius: 5px;
+   margin-right: 10px;
+}
+
+.out:hover{
+	transform: scale(1.2);
+}
