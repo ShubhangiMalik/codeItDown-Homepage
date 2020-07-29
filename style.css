@@ -19,11 +19,11 @@ body{
 
  #mainNavbar .active{
 	font-weight: 600;
-    background-color:#0000EE;
+    background-color:#0BB5FF;
     
 } 
 #mainNavbar .nav-item:hover{
-	background-color:#0000EE;
+	background-color:#0BB5FF;
 	font-weight: 600;
     
 } 
@@ -46,14 +46,15 @@ body{
 	background-attachment: fixed;
     text-align: center;
     background-image: url("images/bg_image.jpg");
-    height: 680px;
-    background-position:center;
+	background-position:0 0;
+	height: 45vw;
+	padding: 0;
+	margin: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: 100% auto ;
+}
 
-  }
-
-  .parallax p{
+.parallax p{
       font-size: 80px;
       color: black;
   }
@@ -68,10 +69,15 @@ body{
 }
 #contacts h3 , #review h3 , #tp h3 , #about h3{
 	margin-bottom: 50px;
-	border-bottom: 2px solid #0000EE;
+	border-bottom: 2px solid #0BB5FF;
 	display: inline-block;
+	font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
 	margin-top: 130px;
 	line-height: 35px;
+}
+
+#about h3{
+	margin-top: 70px;
 }
 .contact-form {
 	margin-top: 45px;
@@ -90,7 +96,7 @@ body{
 	border-radius: 0px;
 	box-shadow: none;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #0BB5FF;
 	resize: none;
 	margin-top: 25px;
 }
@@ -118,12 +124,11 @@ color: #242424 !important;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #0BB5FF;
 	margin-top: 30px;
 }
 
 .contact-button:hover{
-	background-color:#ff0220;
      transform: scale(1.1);
 }
 
@@ -181,8 +186,9 @@ color: #242424 !important;
 }
 
 #tp img{
-	width: 115%;
-	height: 310px;
+	width: 100%;
+	text-align: center;
+	height: 295px;
 	margin: 40px 0;
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -207,7 +213,7 @@ color: #242424 !important;
 
 
 #details i:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 	
 }
 
@@ -222,7 +228,7 @@ color: #242424 !important;
 
 #first{
 	letter-spacing: 1px;
-	border-left: 10px solid #0000EE;
+	border-left: 10px solid #0BB5FF	;
 	font-size: calc(17px + (20 - 17) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -234,16 +240,19 @@ color: #242424 !important;
 }
 
 
+
 .fa-phone-alt{
 	color: green;
+	margin-right: 20px;
 }
 
 
-a{
+
+#details a{
 	color: black;
 }
 
-a:hover{
+#details a:hover{
 	text-decoration: none;
 	color:black;
 }
@@ -253,12 +262,23 @@ a:hover{
 }
 
 .out{
-   height: 35px;
-   width: 35px;
+   height: 52px;
+   width: 52px;
    border-radius: 5px;
-   margin-right: 10px;
+   margin-right: 9px;
 }
 
 .out:hover{
+	transform: scale(1.2);
+}
+
+#wa{
+	height: 55px;
+	width: 55px;
+	margin-bottom: 16px;
+	margin-right: 9px;
+}
+
+#ph i:hover{
 	transform: scale(1.2);
 }
